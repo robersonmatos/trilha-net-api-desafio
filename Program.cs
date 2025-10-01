@@ -5,7 +5,7 @@ using TrilhaApiDesafio.Context;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<OrganizadorContext>(options =>
+builder.Services.AddDbContext<SistemaContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
 
 builder.Services.AddControllers().AddJsonOptions(options =>

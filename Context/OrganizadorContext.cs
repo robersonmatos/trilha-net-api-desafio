@@ -3,9 +3,9 @@ using TrilhaApiDesafio.Models;
 
 namespace TrilhaApiDesafio.Context
 {
-    public class OrganizadorContext : DbContext
+    public class SistemaContext : DbContext
     {
-        public OrganizadorContext(DbContextOptions<OrganizadorContext> options) : base(options)
+        public SistemaContext(DbContextOptions<SistemaContext> options) : base(options)
         {
             
         }
